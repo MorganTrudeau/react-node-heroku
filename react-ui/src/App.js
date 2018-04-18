@@ -1,21 +1,9 @@
-import React, { Component } from 'react';
-import './App.css';
-import Header from './components/header';
-import NavbarInstance from './components/navbar';
-import Main from './components/main';
-import Footer from './components/footer';
-
+import React, { Component } from "react";
+import "./global.css";
 
 class App extends Component {
   render() {
-    return (
-      <div>
-        <Header />
-        <NavbarInstance />
-        <Main />
-        <Footer />
-      </div>
-    );
+    return <div />;
   }
 }
 
