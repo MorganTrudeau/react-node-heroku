@@ -1,0 +1,26 @@
+{
+  "name": "####",
+  "version": "1.0.0",
+  "description": "####",
+  "engines": {
+    "node": "8.9.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild":
+      "cd react-ui/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "cacheDirectories": ["node_modules", "react-ui/node_modules"],
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.14.1",
+    "nodemailer": "^4.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MorganTrudeau/salamander-commander.git"
+  },
+  "keywords": ["node", "heroku", "create-react-app", "react"],
+  "license": "MIT",
+  "devDependencies": {}
+}
